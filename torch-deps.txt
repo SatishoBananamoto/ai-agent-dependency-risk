@@ -1,0 +1,14 @@
+cuda-bindings
+cuda-toolkit
+filelock
+fsspec
+jinja2
+networkx
+nvidia-cudnn-cu13
+nvidia-cusparselt-cu13
+nvidia-nccl-cu13
+nvidia-nvshmem-cu13
+setuptools
+sympy
+triton
+typing-extensions

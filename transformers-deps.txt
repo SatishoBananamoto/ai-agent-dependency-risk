@@ -1,0 +1,9 @@
+huggingface-hub
+numpy
+packaging
+pyyaml
+regex
+safetensors
+tokenizers
+tqdm
+typer
