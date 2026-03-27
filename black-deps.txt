@@ -1,0 +1,8 @@
+click
+mypy-extensions
+packaging
+pathspec
+platformdirs
+pytokens
+tomli
+typing-extensions

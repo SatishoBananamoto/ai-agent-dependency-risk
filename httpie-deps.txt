@@ -1,0 +1,11 @@
+Pygments
+charset-normalizer
+colorama
+defusedxml
+importlib-metadata
+multidict
+pip
+requests
+requests-toolbelt
+rich
+setuptools
