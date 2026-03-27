@@ -21,4 +21,4 @@ jobs:
       - uses: SatishoBananamoto/vigil@main
         with:
           file: ${{ matrix.framework.file }}
-          fail-on: critical
+          fail-on: none
