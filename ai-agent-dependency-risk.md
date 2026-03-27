@@ -102,6 +102,22 @@ transitive packages** vs LangChain's **26**. The lesson: dependency count isn't
 just a build complexity problem, it's a security surface problem that compounds
 through transitive dependencies.
 
+## Why This Matters Now
+
+In March 2026, TeamPCP compromised LiteLLM (97M monthly downloads) through a
+multi-stage supply chain attack. Over 600 projects had unpinned LiteLLM
+dependencies. The attack harvested API keys for OpenAI, Anthropic, Google,
+and Azure from compromised installations.
+
+This analysis shows that similar risks exist in every major AI agent framework.
+CrewAI's `jsonref` (CRITICAL, 0.78) is abandoned with no one to patch
+vulnerabilities. Its `openpyxl` and `tomli-w` dependencies have no linked
+source repositories — making it impossible to audit their security posture.
+
+The question isn't whether AI agent supply chains will be targeted again.
+It's whether frameworks are monitoring their dependency health before the
+next incident.
+
 ## Methodology
 
 Each package was analyzed using vigil's 4-analyzer pipeline:
