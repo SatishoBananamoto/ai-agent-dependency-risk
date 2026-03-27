@@ -4,8 +4,8 @@
 
 | Package | Risk | Score | Top Concern |
 |---------|------|-------|-------------|
-| sniffio | CRITICAL | 0.76 | Stale — last release 760d ago. |
-| distro | MODERATE | 0.41 | Slowing — last push 132d ago. |
+| distro | MODERATE | 0.37 | Slowing — last push 132d ago. |
+| sniffio | MODERATE | 0.37 | Recent activity — last push 20d ago. |
 | jiter | MODERATE | 0.31 | Recent activity — last push 8d ago. |
 | typing-extensions | MODERATE | 0.28 | Active — last push 3d ago. |
 | httpx | MODERATE | 0.27 | Recent activity — last push 25d ago. |
@@ -13,4 +13,4 @@
 | pydantic | LOW | 0.22 | Active — last push 0d ago. |
 | tqdm | LOW | 0.18 | Active releases — latest 51d ago, 3d between last two. |
 
-**Summary:** 8 packages scanned. 1 critical, 0 high, 4 moderate, 3 low.
+**Summary:** 8 packages scanned. 0 critical, 0 high, 5 moderate, 3 low.
