@@ -1,0 +1,7 @@
+griffelib
+mcp
+openai
+pydantic
+requests
+types-requests
+typing-extensions

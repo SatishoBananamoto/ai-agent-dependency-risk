@@ -1,0 +1,5 @@
+google-api-core
+httpx-sse
+httpx
+protobuf
+pydantic

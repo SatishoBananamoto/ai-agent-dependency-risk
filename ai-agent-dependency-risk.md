@@ -11,6 +11,8 @@
 | **LangChain Core** | 8 | 0 | 0 | 4 | pyyaml (0.46) |
 | **AutoGen Core** | 6 | 1 | 0 | 3 | jsonref (0.78) |
 | **MCP SDK** | 13 | 0 | 0 | 7 | typing-inspection (0.42) |
+| **A2A SDK** | 5 | 0 | 0 | 3 | protobuf (0.30) |
+| **OpenAI Agents** | 7 | 0 | 0 | 2 | mcp (0.25) |
 
 ## Key Findings
 
@@ -76,6 +78,27 @@ single-maintainer packages:
 None of these are abandoned — they're actively maintained by talented
 individuals. The risk is personnel, not code quality. If any of these
 maintainers steps away, the MCP ecosystem has a supply chain gap.
+
+### 6. A2A SDK and OpenAI Agents are cleanest
+
+Both have small dependency footprints (5 and 7) with no risks above MODERATE.
+The OpenAI Agents SDK depends on `mcp` (the MCP SDK itself), creating an
+interesting dependency chain: OpenAI Agents → MCP → sse-starlette (bus factor 1).
+
+### 7. Dependency count correlates with risk
+
+| Framework | Deps | CRIT+HIGH | Risk per dep |
+|-----------|------|-----------|-------------|
+| CrewAI | 29 | 3 | 10.3% |
+| MCP SDK | 13 | 0 | 0% |
+| LangChain | 8 | 0 | 0% |
+| OpenAI Agents | 7 | 0 | 0% |
+| AutoGen | 6 | 1 | 16.7% |
+| A2A SDK | 5 | 0 | 0% |
+
+CrewAI's 29 dependencies aren't just more — they include less-maintained packages
+that smaller frameworks avoid. The lesson: dependency count isn't just a build
+complexity problem, it's a security surface problem.
 
 ## Methodology
 
