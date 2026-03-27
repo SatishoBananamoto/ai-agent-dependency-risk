@@ -4,24 +4,24 @@
 
 | Package | Risk | Score | Top Concern |
 |---------|------|-------|-------------|
-| filetype | MODERATE | 0.46 | Stale — last push 328d ago. |
+| filetype | MODERATE | 0.50 | Stale — last push 328d ago. |
 | pyyaml | MODERATE | 0.46 | Stale — last push 182d ago. |
 | python-dateutil | MODERATE | 0.39 | Recent activity — last push 23d ago. |
 | jinja2 | MODERATE | 0.38 | Stale — last push 285d ago. |
-| more-itertools | MODERATE | 0.38 | Slow releases — latest 205d ago. |
-| lazy-imports | MODERATE | 0.37 | Moderate activity — last push 65d ago. |
-| docstring-parser | MODERATE | 0.37 | Slow releases — latest 248d ago. |
+| lazy-imports | MODERATE | 0.35 | Moderate activity — last push 65d ago. |
+| docstring-parser | MODERATE | 0.34 | Active — last push 7d ago. |
+| tqdm | MODERATE | 0.34 | Moderate activity — last push 41d ago. |
 | markupsafe | MODERATE | 0.33 | Slowing — last push 180d ago. |
+| more-itertools | MODERATE | 0.30 | Active — last push 2d ago. |
+| numpy | MODERATE | 0.30 | Active — last push 0d ago. |
+| typing-extensions | MODERATE | 0.30 | Active — last push 3d ago. |
+| haystack-experimental | MODERATE | 0.29 | Active — last push 2d ago. |
 | jsonschema | MODERATE | 0.28 | Active — last push 3d ago. |
-| typing-extensions | MODERATE | 0.28 | Active — last push 3d ago. |
 | networkx | MODERATE | 0.26 | Active — last push 1d ago. |
-| posthog | LOW | 0.25 | Active — last push 0d ago. |
+| posthog | MODERATE | 0.25 | Active — last push 0d ago. |
 | openai | LOW | 0.24 | Active — last push 0d ago. |
-| numpy | LOW | 0.23 | Active releases — latest 17d ago, 36d between last two. |
 | tenacity | LOW | 0.22 | Active — last push 3d ago. |
-| haystack-experimental | LOW | 0.22 | Active releases — latest 49d ago, 8d between last two. |
-| requests | LOW | 0.22 | Active — last push 1d ago. |
 | pydantic | LOW | 0.22 | Active — last push 0d ago. |
-| tqdm | LOW | 0.18 | Active releases — latest 51d ago, 3d between last two. |
+| requests | LOW | 0.21 | Active — last push 1d ago. |
 
-**Summary:** 19 packages scanned. 0 critical, 0 high, 11 moderate, 8 low.
+**Summary:** 19 packages scanned. 0 critical, 0 high, 15 moderate, 4 low.

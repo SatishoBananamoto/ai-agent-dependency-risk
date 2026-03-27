@@ -5,26 +5,26 @@
 | Package | Risk | Score | Top Concern |
 |---------|------|-------|-------------|
 | nest-asyncio | CRITICAL | 0.80 | Repository erdewit/nest_asyncio is archived — no longer main |
-| defusedxml | HIGH | 0.59 | Inactive — last push 569d ago. |
+| defusedxml | HIGH | 0.61 | Inactive — last push 569d ago. |
 | pybars4 | HIGH | 0.53 | Inactive — last push 1817d ago. |
 | jinja2 | MODERATE | 0.42 | Stale — last push 285d ago. |
 | prance | MODERATE | 0.40 | Recent activity — last push 10d ago. |
-| typing-extensions | MODERATE | 0.28 | Active — last push 3d ago. |
-| openapi_core | MODERATE | 0.27 | Active — last push 0d ago. |
+| aiortc | MODERATE | 0.36 | Slowing — last push 117d ago. |
+| numpy | MODERATE | 0.30 | Active — last push 0d ago. |
+| typing-extensions | MODERATE | 0.30 | Active — last push 3d ago. |
+| websockets | MODERATE | 0.28 | Recent activity — last push 18d ago. |
+| aiohttp | MODERATE | 0.26 | Active — last push 0d ago. |
+| openapi_core | MODERATE | 0.26 | Active — last push 0d ago. |
 | azure-ai-agents | LOW | 0.24 | Active — last push 0d ago. |
 | mcp | LOW | 0.24 | Active — last push 0d ago. |
 | openai | LOW | 0.24 | Active — last push 0d ago. |
-| aiohttp | LOW | 0.23 | Active releases — latest 82d ago, 66d between last two. |
-| cloudevents | LOW | 0.23 | Active releases — latest 2d ago, 1d between last two. |
-| numpy | LOW | 0.23 | Active releases — latest 17d ago, 36d between last two. |
-| scipy | LOW | 0.23 | Active releases — latest 32d ago, 43d between last two. |
-| aiortc | LOW | 0.23 | Moderate release pace — latest 164d ago. |
-| websockets | LOW | 0.23 | Moderate release pace — latest 75d ago. |
+| azure-identity | LOW | 0.23 | Active — last push 0d ago. |
+| scipy | LOW | 0.23 | Active — last push 0d ago. |
 | pydantic | LOW | 0.22 | Active — last push 0d ago. |
+| cloudevents | LOW | 0.22 | Active — last push 2d ago. |
 | opentelemetry-api | LOW | 0.19 | Active — last push 0d ago. |
 | opentelemetry-sdk | LOW | 0.19 | Active — last push 0d ago. |
 | pydantic-settings | LOW | 0.19 | Active — last push 0d ago. |
 | azure-ai-projects | LOW | 0.18 | Active releases — latest 14d ago, 6d between last two. |
-| azure-identity | LOW | 0.18 | Active releases — latest 14d ago, 28d between last two. |
 
-**Summary:** 22 packages scanned. 1 critical, 2 high, 4 moderate, 15 low.
+**Summary:** 22 packages scanned. 1 critical, 2 high, 8 moderate, 11 low.

@@ -4,23 +4,23 @@
 
 | Package | Risk | Score | Top Concern |
 |---------|------|-------|-------------|
-| diskcache | HIGH | 0.60 | Inactive — last push 593d ago. |
+| diskcache | HIGH | 0.63 | Inactive — last push 593d ago. |
 | cloudpickle | MODERATE | 0.40 | Slowing — last push 141d ago. |
-| xxhash | MODERATE | 0.33 | Recent activity — last push 9d ago. |
+| regex | MODERATE | 0.37 | Recent activity — last push 27d ago. |
+| xxhash | MODERATE | 0.37 | Recent activity — last push 9d ago. |
+| tqdm | MODERATE | 0.32 | Moderate activity — last push 41d ago. |
 | litellm | MODERATE | 0.31 | Active — last push 0d ago. |
-| gepa | MODERATE | 0.30 | Active releases — latest 10d ago, 24d between last two. |
-| json-repair | MODERATE | 0.30 | Active releases — latest 0d ago, 10d between last two. |
+| numpy | MODERATE | 0.30 | Active — last push 0d ago. |
+| cachetools | MODERATE | 0.30 | Active — last push 0d ago. |
+| orjson | MODERATE | 0.29 | Active — last push 0d ago. |
+| gepa | MODERATE | 0.26 | Active — last push 2d ago. |
+| anyio | MODERATE | 0.26 | Active — last push 0d ago. |
+| json-repair | MODERATE | 0.25 | Active — last push 0d ago. |
 | openai | LOW | 0.24 | Active — last push 0d ago. |
-| anyio | LOW | 0.23 | Active releases — latest 2d ago, 77d between last two. |
-| cachetools | LOW | 0.23 | Active releases — latest 17d ago, 0d between last two. |
-| numpy | LOW | 0.23 | Active releases — latest 17d ago, 36d between last two. |
-| regex | LOW | 0.23 | Active releases — latest 27d ago, 8d between last two. |
 | tenacity | LOW | 0.22 | Active — last push 3d ago. |
+| optuna | LOW | 0.22 | Active — last push 0d ago. |
 | pydantic | LOW | 0.22 | Active — last push 0d ago. |
 | asyncer | LOW | 0.22 | Active — last push 1d ago. |
 | requests | LOW | 0.21 | Active — last push 1d ago. |
-| optuna | LOW | 0.18 | Active releases — latest 10d ago, 55d between last two. |
-| orjson | LOW | 0.18 | Active releases — latest 52d ago, 4d between last two. |
-| tqdm | LOW | 0.18 | Active releases — latest 51d ago, 3d between last two. |
 
-**Summary:** 18 packages scanned. 0 critical, 1 high, 5 moderate, 12 low.
+**Summary:** 18 packages scanned. 0 critical, 1 high, 11 moderate, 6 low.

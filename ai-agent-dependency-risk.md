@@ -19,18 +19,18 @@
 
 | Framework | Direct Deps | Critical | High | Moderate | Worst Package |
 |-----------|------------|----------|------|----------|--------------|
-| **CrewAI** | 29 | 1 | 2 | 11 | jsonref (0.78) |
+| **CrewAI** | 29 | 0 | 2 | 12 | tomli-w (0.68) |
 | **LangChain Core** | 8 | 0 | 0 | 4 | pyyaml (0.46) |
-| **AutoGen Core** | 6 | 1 | 0 | 3 | jsonref (0.78) |
-| **MCP SDK** | 13 | 0 | 0 | 7 | typing-inspection (0.42) |
+| **AutoGen Core** | 6 | 0 | 1 | 3 | jsonref (0.51) |
+| **MCP SDK** | 13 | 0 | 0 | 8 | typing-inspection (0.42) |
 | **A2A SDK** | 5 | 0 | 0 | 3 | protobuf (0.30) |
-| **OpenAI Agents** | 7 | 0 | 0 | 2 | mcp (0.25) |
-| **Semantic Kernel** | 22 | 1 | 2 | 4 | nest-asyncio (0.80) |
-| **DSPy** | 18 | 0 | 1 | 5 | diskcache (0.60) |
-| **Haystack** | 19 | 0 | 0 | 11 | posthog (0.43) |
-| **Google ADK** | 45 | 0 | 2 | 16 | tzlocal (0.60) |
-| **Anthropic SDK** | 8 | 0* | 0 | 5 | distro (0.37) |
-| **OpenAI SDK** | 8 | 0* | 0 | 4 | distro (0.37) |
+| **OpenAI Agents** | 7 | 0 | 0 | 1 | mcp (0.25) |
+| **Semantic Kernel** | 22 | 1 | 2 | 8 | nest-asyncio (0.80) |
+| **DSPy** | 18 | 0 | 1 | 11 | diskcache (0.60) |
+| **Haystack** | 19 | 0 | 0 | 15 | posthog (0.43) |
+| **Google ADK** | 45 | 0 | 1 | 21 | tzlocal (0.60) |
+| **Anthropic SDK** | 8 | 0 | 0 | 7 | sniffio (0.37) |
+| **OpenAI SDK** | 8 | 0 | 0 | 7 | sniffio (0.37) |
 
 ## Key Findings
 
