@@ -1,0 +1,8 @@
+argcomplete
+attrs
+colorlog
+dependency-groups
+humanize
+packaging
+tomli
+virtualenv

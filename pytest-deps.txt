@@ -1,0 +1,7 @@
+colorama
+exceptiongroup
+iniconfig
+packaging
+pluggy
+pygments
+tomli

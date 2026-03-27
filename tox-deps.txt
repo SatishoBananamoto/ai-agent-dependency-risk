@@ -1,0 +1,11 @@
+cachetools
+colorama
+filelock
+packaging
+platformdirs
+pluggy
+pyproject-api
+tomli
+tomli-w
+typing-extensions
+virtualenv
