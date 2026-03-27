@@ -1,0 +1,3 @@
+greenlet
+importlib-metadata
+typing-extensions
