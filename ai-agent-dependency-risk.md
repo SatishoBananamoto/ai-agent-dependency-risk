@@ -30,6 +30,7 @@
 | **Haystack** | 19 | 0 | 0 | 11 | posthog (0.43) |
 | **Google ADK** | 45 | 0 | 2 | 16 | tzlocal (0.60) |
 | **Anthropic SDK** | 8 | 1 | 0 | 5 | sniffio (0.76) |
+| **OpenAI SDK** | 8 | 1 | 0 | 4 | sniffio (0.76) |
 
 ## Key Findings
 
