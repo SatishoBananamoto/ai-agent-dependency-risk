@@ -1,0 +1,7 @@
+blinker
+click
+importlib-metadata
+itsdangerous
+jinja2
+markupsafe
+werkzeug
