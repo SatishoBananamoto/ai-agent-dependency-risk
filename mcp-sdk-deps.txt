@@ -1,0 +1,13 @@
+anyio
+httpx
+httpx-sse
+jsonschema
+pydantic
+pydantic-settings
+pyjwt
+python-multipart
+sse-starlette
+starlette
+typing-extensions
+typing-inspection
+uvicorn

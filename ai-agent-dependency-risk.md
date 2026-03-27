@@ -10,6 +10,7 @@
 | **CrewAI** | 29 | 1 | 2 | 11 | jsonref (0.78) |
 | **LangChain Core** | 8 | 0 | 0 | 4 | pyyaml (0.46) |
 | **AutoGen Core** | 6 | 1 | 0 | 3 | jsonref (0.78) |
+| **MCP SDK** | 13 | 0 | 0 | 7 | typing-inspection (0.42) |
 
 ## Key Findings
 
@@ -62,6 +63,19 @@ LangChain's tight dependency footprint is a genuine engineering advantage.
 - **Missing metadata**: Several packages lack PyPI development status
   classifiers, security policies, or funding information. This makes
   automated risk assessment harder but doesn't indicate actual risk.
+
+### 5. MCP SDK has a bus factor problem
+
+The MCP Python SDK (used by all MCP servers including ours) depends on 3
+single-maintainer packages:
+
+- `typing-inspection` (0.42): Viicos is the sole maintainer
+- `sse-starlette` (0.29): sysid is the sole maintainer
+- `jsonschema` (0.26): Julian is the sole maintainer
+
+None of these are abandoned — they're actively maintained by talented
+individuals. The risk is personnel, not code quality. If any of these
+maintainers steps away, the MCP ecosystem has a supply chain gap.
 
 ## Methodology
 
