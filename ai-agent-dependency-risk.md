@@ -97,8 +97,10 @@ interesting dependency chain: OpenAI Agents → MCP → sse-starlette (bus facto
 | A2A SDK | 5 | 0 | 0% |
 
 CrewAI's 29 dependencies aren't just more — they include less-maintained packages
-that smaller frameworks avoid. The lesson: dependency count isn't just a build
-complexity problem, it's a security surface problem.
+that smaller frameworks avoid. With cascade analysis, CrewAI pulls in **127
+transitive packages** vs LangChain's **26**. The lesson: dependency count isn't
+just a build complexity problem, it's a security surface problem that compounds
+through transitive dependencies.
 
 ## Methodology
 
