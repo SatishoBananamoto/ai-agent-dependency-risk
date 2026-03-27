@@ -1,0 +1,8 @@
+anyio
+distro
+docstring-parser
+httpx
+jiter
+pydantic
+sniffio
+typing-extensions
