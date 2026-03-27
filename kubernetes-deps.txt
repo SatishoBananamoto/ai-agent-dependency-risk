@@ -1,0 +1,9 @@
+certifi
+durationpy
+python-dateutil
+pyyaml
+requests
+requests-oauthlib
+six
+urllib3
+websocket-client
