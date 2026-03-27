@@ -1,0 +1,10 @@
+CacheControl
+cyclonedx-python-lib
+packaging
+pip-api
+pip-requirements-parser
+platformdirs
+requests
+rich
+tomli
+tomli-w
