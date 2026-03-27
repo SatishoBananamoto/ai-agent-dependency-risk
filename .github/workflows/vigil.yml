@@ -1,0 +1,24 @@
+name: Dependency Health Check
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '0 9 * * 1'  # Weekly Monday 9am
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        framework:
+          - {name: crewai, file: crewai-deps.txt}
+          - {name: langchain, file: langchain-deps.txt}
+          - {name: autogen, file: autogen-deps.txt}
+          - {name: mcp-sdk, file: mcp-sdk-deps.txt}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: SatishoBananamoto/vigil@main
+        with:
+          file: ${{ matrix.framework.file }}
+          fail-on: critical
