@@ -1,0 +1,15 @@
+boto3
+urllib3
+requests
+certifi
+charset-normalizer
+idna
+typing-extensions
+botocore
+s3transfer
+six
+setuptools
+pip
+packaging
+wheel
+numpy
