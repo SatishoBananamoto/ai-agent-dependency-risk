@@ -1,0 +1,6 @@
+google-api-core
+google-auth
+google-cloud-core
+google-crc32c
+google-resumable-media
+requests
