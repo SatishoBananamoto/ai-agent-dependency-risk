@@ -11,6 +11,9 @@
 ![MCP SDK](https://img.shields.io/badge/MCP%20SDK-MODERATE%20(0.42)-yellow)
 ![A2A SDK](https://img.shields.io/badge/A2A%20SDK-MODERATE%20(0.30)-yellow)
 ![OpenAI Agents](https://img.shields.io/badge/OpenAI%20Agents-MODERATE%20(0.25)-green)
+![Semantic Kernel](https://img.shields.io/badge/Semantic%20Kernel-CRITICAL%20(0.80)-red)
+![DSPy](https://img.shields.io/badge/DSPy-HIGH%20(0.60)-orange)
+![Haystack](https://img.shields.io/badge/Haystack-MODERATE%20(0.43)-yellow)
 
 ## Summary
 
@@ -22,6 +25,9 @@
 | **MCP SDK** | 13 | 0 | 0 | 7 | typing-inspection (0.42) |
 | **A2A SDK** | 5 | 0 | 0 | 3 | protobuf (0.30) |
 | **OpenAI Agents** | 7 | 0 | 0 | 2 | mcp (0.25) |
+| **Semantic Kernel** | 22 | 1 | 2 | 4 | nest-asyncio (0.80) |
+| **DSPy** | 18 | 0 | 1 | 5 | diskcache (0.60) |
+| **Haystack** | 19 | 0 | 0 | 11 | posthog (0.43) |
 
 ## Key Findings
 
@@ -88,7 +94,24 @@ None of these are abandoned — they're actively maintained by talented
 individuals. The risk is personnel, not code quality. If any of these
 maintainers steps away, the MCP ecosystem has a supply chain gap.
 
-### 6. A2A SDK and OpenAI Agents are cleanest
+### 6. Semantic Kernel depends on an archived repo
+
+Microsoft's Semantic Kernel depends on `nest-asyncio` (CRITICAL, 0.80) — its
+GitHub repository is **archived**. The maintainer has explicitly stopped
+development. Also depends on `pybars4` (HIGH, 0.53 — inactive 5 years) and
+`defusedxml` (HIGH, 0.59 — inactive 569 days).
+
+### 7. DSPy's diskcache is going stale
+
+Stanford's DSPy depends on `diskcache` (HIGH, 0.60 — inactive 593 days).
+Not abandoned yet, but heading that direction.
+
+### 8. Haystack is moderate risk across the board
+
+Haystack has 19 dependencies, none CRITICAL or HIGH, but 11 MODERATE.
+Wide but shallow risk — many packages with minor concerns, none acute.
+
+### 9. A2A SDK and OpenAI Agents are cleanest
 
 Both have small dependency footprints (5 and 7) with no risks above MODERATE.
 The OpenAI Agents SDK depends on `mcp` (the MCP SDK itself), creating an
