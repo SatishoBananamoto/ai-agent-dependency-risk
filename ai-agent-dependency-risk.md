@@ -29,8 +29,8 @@
 | **DSPy** | 18 | 0 | 1 | 5 | diskcache (0.60) |
 | **Haystack** | 19 | 0 | 0 | 11 | posthog (0.43) |
 | **Google ADK** | 45 | 0 | 2 | 16 | tzlocal (0.60) |
-| **Anthropic SDK** | 8 | 1 | 0 | 5 | sniffio (0.76) |
-| **OpenAI SDK** | 8 | 1 | 0 | 4 | sniffio (0.76) |
+| **Anthropic SDK** | 8 | 0* | 0 | 5 | distro (0.37) |
+| **OpenAI SDK** | 8 | 0* | 0 | 4 | distro (0.37) |
 
 ## Key Findings
 
@@ -114,7 +114,22 @@ Not abandoned yet, but heading that direction.
 Haystack has 19 dependencies, none CRITICAL or HIGH, but 11 MODERATE.
 Wide but shallow risk — many packages with minor concerns, none acute.
 
-### 9. A2A SDK and OpenAI Agents are cleanest
+### 9. sniffio is a FALSE POSITIVE — verified and corrected
+
+vigil scored `sniffio` as CRITICAL (0.76) in both Anthropic and OpenAI SDKs
+based on no PyPI release in 760 days. Upon investigation:
+
+- The repo has **active commits from 21 days ago** (Python 3.14 CI updates)
+- The library is **95 lines** — feature-complete, doesn't need releases
+- The maintainer (Nathaniel J. Smith) **works at Anthropic**
+- Alex Grönholm (anyio maintainer) is actively contributing
+
+This is a false positive caused by over-weighting release recency for
+micro-libraries. Both SDK entries have been corrected to 0 critical.
+
+*\* Originally scored 1 critical (sniffio). Corrected after verification.*
+
+### 10. A2A SDK and OpenAI Agents are cleanest
 
 Both have small dependency footprints (5 and 7) with no risks above MODERATE.
 The OpenAI Agents SDK depends on `mcp` (the MCP SDK itself), creating an
