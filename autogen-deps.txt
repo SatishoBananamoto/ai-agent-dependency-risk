@@ -1,0 +1,6 @@
+jsonref
+opentelemetry-api
+pillow
+protobuf
+pydantic
+typing-extensions
