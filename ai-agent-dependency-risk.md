@@ -28,6 +28,7 @@
 | **Semantic Kernel** | 22 | 1 | 2 | 4 | nest-asyncio (0.80) |
 | **DSPy** | 18 | 0 | 1 | 5 | diskcache (0.60) |
 | **Haystack** | 19 | 0 | 0 | 11 | posthog (0.43) |
+| **Google ADK** | 45 | 0 | 2 | 16 | tzlocal (0.60) |
 
 ## Key Findings
 
