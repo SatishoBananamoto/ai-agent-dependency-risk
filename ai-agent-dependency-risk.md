@@ -19,7 +19,7 @@
 
 | Framework | Direct Deps | Critical | High | Moderate | Worst Package |
 |-----------|------------|----------|------|----------|--------------|
-| **CrewAI** | 29 | 0 | 2 | 12 | tomli-w (0.68) |
+| **CrewAI** | 29 | 0 | 0 | 14 | appdirs (0.47) |
 | **LangChain Core** | 8 | 0 | 0 | 4 | pyyaml (0.46) |
 | **AutoGen Core** | 6 | 0 | 1 | 3 | jsonref (0.51) |
 | **MCP SDK** | 13 | 0 | 0 | 8 | typing-inspection (0.42) |
@@ -28,7 +28,7 @@
 | **Semantic Kernel** | 22 | 1 | 2 | 8 | nest-asyncio (0.80) |
 | **DSPy** | 18 | 0 | 1 | 11 | diskcache (0.60) |
 | **Haystack** | 19 | 0 | 0 | 15 | posthog (0.43) |
-| **Google ADK** | 45 | 0 | 1 | 21 | tzlocal (0.60) |
+| **Google ADK** | 45 | 0 | 0 | 22 | tzlocal (0.45) |
 | **Anthropic SDK** | 8 | 0 | 0 | 7 | sniffio (0.37) |
 | **OpenAI SDK** | 8 | 0 | 0 | 7 | sniffio (0.37) |
 
