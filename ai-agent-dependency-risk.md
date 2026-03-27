@@ -11,6 +11,8 @@
 **Security Tools:** [Semgrep](reports/semgrep.md) | [Safety](reports/safety.md) | [Bandit](reports/bandit.md) | [pip-audit](reports/pip-audit.md)
 **Cloud SDKs:** [AWS boto3](reports/boto3.md) | [Google Cloud](reports/google-cloud-storage.md) | [Azure](reports/azure-storage-blob.md)
 **Web Frameworks:** [FastAPI](reports/fastapi.md) | [Django](reports/django.md) | [Flask](reports/flask.md)
+**Backend:** [Celery](reports/celery.md) | [SQLAlchemy](reports/sqlalchemy.md) | [Redis](reports/redis.md) | [Alembic](reports/alembic.md) | [Uvicorn](reports/uvicorn.md)
+**DevOps:** [Ansible](reports/ansible-core.md) | [Docker](reports/docker.md) | [Kubernetes](reports/kubernetes.md) | [Fabric](reports/fabric.md)
 **Top PyPI:** [Top 15](reports/top-python.md)
 
 **Run it yourself:**
