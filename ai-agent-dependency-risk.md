@@ -160,13 +160,28 @@ dependencies. The attack harvested API keys for OpenAI, Anthropic, Google,
 and Azure from compromised installations.
 
 This analysis shows that similar risks exist in every major AI agent framework.
-CrewAI's `jsonref` (CRITICAL, 0.78) is abandoned with no one to patch
-vulnerabilities. Its `openpyxl` and `tomli-w` dependencies have no linked
-source repositories — making it impossible to audit their security posture.
+Semantic Kernel's `nest-asyncio` is the only remaining CRITICAL — its repo is
+archived by the maintainer. CrewAI's `tomli-w` and `openpyxl` score HIGH with
+no linked source repositories.
 
 The question isn't whether AI agent supply chains will be targeted again.
 It's whether frameworks are monitoring their dependency health before the
 next incident.
+
+## Verification & Corrections
+
+This analysis has been corrected twice based on verification:
+
+1. **sniffio** was initially scored CRITICAL (no PyPI release in 760 days).
+   Investigation revealed: repo has active commits, maintainer works at Anthropic,
+   library is 95 lines (feature-complete). Root cause: vigil's URL parser missed
+   case-insensitive `project_urls` keys. **Fixed in vigil v0.2.2.**
+
+2. **jsonref** dropped from CRITICAL to HIGH after the same URL fix found its
+   GitHub repo (lowercase `repository` key).
+
+Automated scanning catches patterns. Human verification catches context.
+HIGH/CRITICAL findings should always be verified before acting on them.
 
 ## Methodology
 
