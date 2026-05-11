@@ -17,6 +17,7 @@ AI-agent tooling.
 AI agent frameworks:
 
 - [CrewAI](reports/crewai.md)
+- [CrewAI Cascade](reports/crewai-cascade.md)
 - [LangChain](reports/langchain.md)
 - [AutoGen](reports/autogen.md)
 - [Semantic Kernel](reports/semantic-kernel.md)
@@ -31,6 +32,13 @@ AI SDKs and protocols:
 - [OpenAI Agents](reports/openai-agents.md)
 - [MCP SDK](reports/mcp-sdk.md)
 - [A2A SDK](reports/a2a-sdk.md)
+- [A2A SDK alternate scan](reports/a2a.md)
+
+ML frameworks:
+
+- [TensorFlow](reports/tensorflow.md)
+- [PyTorch](reports/torch.md)
+- [Transformers](reports/transformers.md)
 
 Security tools:
 
@@ -49,6 +57,32 @@ Infrastructure and web:
 - [AWS boto3](reports/boto3.md)
 - [Google Cloud Storage](reports/google-cloud-storage.md)
 - [Azure Storage Blob](reports/azure-storage-blob.md)
+
+Backend:
+
+- [Celery](reports/celery.md)
+- [SQLAlchemy](reports/sqlalchemy.md)
+- [Redis](reports/redis.md)
+- [Alembic](reports/alembic.md)
+- [Uvicorn](reports/uvicorn.md)
+
+DevOps:
+
+- [Ansible Core](reports/ansible-core.md)
+- [Fabric](reports/fabric.md)
+
+Testing and developer tools:
+
+- [pytest](reports/pytest.md)
+- [tox](reports/tox.md)
+- [nox](reports/nox.md)
+- [Hypothesis](reports/hypothesis.md)
+- [Typer](reports/typer.md)
+- [Rich](reports/rich.md)
+- [HTTPie](reports/httpie.md)
+- [Black](reports/black.md)
+- [mypy](reports/mypy.md)
+- [Top PyPI packages](reports/top-python.md)
 
 ## Reproduce The Scan
 
