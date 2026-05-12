@@ -96,6 +96,19 @@ The repository also includes [trust-stack-demo.sh](trust-stack-demo.sh), a small
 demo script that chains MCP config scanning, dependency-health reporting, and a
 caliber Trust Card summary when those tools are installed locally.
 
+## Freshness Guard
+
+These reports are security-adjacent snapshots, not live dependency intelligence.
+Use the local guard before treating them as current:
+
+```bash
+python3 tools/check_report_freshness.py
+```
+
+By default, the guard fails if any generated report is more than 30 days old.
+That failure is intentional: refresh the `vigil-risk` reports before making a
+current security decision.
+
 ## Current Caveat
 
 The snapshots are dated March 27, 2026. Dependency health can change quickly, so
